@@ -1,18 +1,12 @@
 .introducao-bg {
   background: var(--cor-12);
-  box-shadow: inset 0 -20px var(--cor-0);
+  box-shadow: inset 0 -120px var(--cor-0);
 }
 
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .introducao-conteudo {
@@ -20,16 +14,6 @@
   padding-bottom: 200px;
 }
 
-/*Solução para a imagem vazar, mas poderia ser um background-gradiente ou uma div ao final por baixo
-.introducao-imagem {
-  margin-bottom: -120px;
-}
-
-.introducao img {
-  height: 100%;
-  object-fit: cover;
-}
-*/
 .introducao img {
   height: 100%;
   object-fit: cover;
@@ -38,10 +22,6 @@
 
 .introducao h1 {
   margin-bottom: 32px;
-}
-
-.introducao h1 span {
-  color: var(--cor-p1);
 }
 
 .introducao p {
